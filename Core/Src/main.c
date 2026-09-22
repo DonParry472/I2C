@@ -130,7 +130,7 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
   LCD_Init(&hi2c1);
- HAL_Init();
+  HAL_Init();
 
     SystemClock_Config();
 
